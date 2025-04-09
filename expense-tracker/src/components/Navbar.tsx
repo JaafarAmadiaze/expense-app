@@ -3,7 +3,7 @@ import { LayoutDashboard, Receipt, PiggyBank, Brain ,ChartLine} from "lucide-rea
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
 
 const links = [
-  { to: "/", icon: <LayoutDashboard size={18} />, label: "Dashboard" },
+  { to: "/dashboard", icon: <LayoutDashboard size={18} />, label: "Dashboard" },
   { to: "/expenses", icon: <Receipt size={18} />, label: "Expenses" },
   { to: "/budget", icon: <PiggyBank size={18} />, label: "Budget" },
   { to: "/advisor", icon: <Brain size={18} />, label: "Advisor" },

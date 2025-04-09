@@ -5,9 +5,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Advisor from './pages/Advisor'
 
 import Expenses from './pages/Expenses'
-import Dashboard from './pages/Dashboard'
+import LandingPage from './pages/LandingPage'
 import Report from './pages/Report'
 import Budget from './pages/Budget'
+import Dashboard from './pages/Dashboard'
+
 
 
 
@@ -22,9 +24,9 @@ function App() {
         <Routes>
          
           <Route path="/advisor" element={<Advisor />} />
-          <Route path="/" element={<Dashboard />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/expenses" element={<Expenses />} />
-        
+        <Route path="/" element={<LandingPage />} />
           <Route path="/report" element={<Report />} />
           <Route path="/budget" element={<Budget />} />
 
